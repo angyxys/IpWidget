@@ -11,3 +11,8 @@ python -m pip install -r requirements.txt
 ```bash
 python window.py
 ```
+
+### Build a release widget (Exe file)
+```bash
+pyinstaller --onefile --windowed --name=ip_widget --icon=icon.ico window.py
+```
